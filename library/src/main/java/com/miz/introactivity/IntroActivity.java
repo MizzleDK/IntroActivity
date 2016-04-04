@@ -56,6 +56,9 @@ public abstract class IntroActivity extends AppCompatActivity {
         // Add the OnPageChangeListener
         mViewPager.addOnPageChangeListener(mOnPageChangeListener);
 
+        // Set a custom animation PageTransformer
+        mViewPager.setPageTransformer(false, new CustomAnimationPageTransformer());
+
         // Call the initialize method to add intro screens
         // and set up the selected styles
         initialize();

@@ -66,6 +66,9 @@ public abstract class BaseIntroFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
+        // Set a tag on the View so we can use it for custom animations
+        view.setTag(this);
+
         // Title
         TextView title = (TextView) view.findViewById(R.id.title);
         title.setText(getTitle());
