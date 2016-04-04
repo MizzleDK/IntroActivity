@@ -66,6 +66,9 @@ public abstract class BaseIntroFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
+        // Set the View layer to a hardware rendering layer
+        view.setLayerType(View.LAYER_TYPE_HARDWARE, null);
+
         // Set a tag on the View so we can use it for custom animations
         view.setTag(this);
 
