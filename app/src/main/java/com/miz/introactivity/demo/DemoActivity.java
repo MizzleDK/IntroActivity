@@ -13,6 +13,12 @@ public class DemoActivity extends IntroActivity {
     protected void initialize() {
         String description = "This is a very long and detailed description about absolutely nothing in particular.";
 
+        // Custom intro screen
+        addIntroScreen(
+                new AnimationIntroFragment(),
+                ContextCompat.getColor(this, R.color.material_indigo)
+        );
+
         // Intro screen with title and description
         addIntroScreen(
                 IntroFragment.newInstance("Title 0", description),
