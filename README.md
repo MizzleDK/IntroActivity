@@ -27,6 +27,9 @@ public class DemoActivity extends IntroActivity {
 }
 ```
 
+### Gradle dependency
+Coming soon!
+
 ## Custom styling
 The library allows you to perform various custom styling using the following methods:
 
