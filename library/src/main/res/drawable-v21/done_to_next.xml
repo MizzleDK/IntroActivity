@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:targetApi="21"
+    android:drawable="@drawable/done">
+
+    <target
+        android:name="done"
+        android:animation="@anim/done_to_next" />
+
+</animated-vector>

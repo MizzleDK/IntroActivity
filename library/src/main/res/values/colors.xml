@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title_color">#111111</color>
+    <color name="description_color">#333333</color>
+    <color name="skip_text_color">#f0f0f0</color>
+    <color name="next_done_icon_color">#f0f0f0</color>
+    <color name="progress_circle_color">#ffffff</color>
+</resources>

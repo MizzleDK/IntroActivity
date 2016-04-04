@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:paddingBottom="@dimen/navigation_height"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewStub
+        android:id="@+id/viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/viewstub_margin" />
+
+    <TextView
+        android:id="@+id/title"
+        tools:text="Title"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textColor="@color/title_color"
+        android:paddingLeft="@dimen/title_padding_left"
+        android:paddingStart="@dimen/title_padding_left"
+        android:paddingRight="@dimen/title_padding_right"
+        android:paddingEnd="@dimen/title_padding_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/description"
+        tools:text="Description"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:lines="2"
+        android:ellipsize="middle"
+        android:textSize="18sp"
+        android:textColor="@color/description_color"
+        android:padding="@dimen/description_padding"
+        android:layout_marginBottom="@dimen/description_margin_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

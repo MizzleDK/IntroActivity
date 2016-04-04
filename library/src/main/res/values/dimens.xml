@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viewstub_margin">24dp</dimen>
+    <dimen name="description_padding">24dp</dimen>
+    <dimen name="title_padding_left">24dp</dimen>
+    <dimen name="title_padding_right">24dp</dimen>
+    <dimen name="description_margin_bottom">16dp</dimen>
+    <dimen name="navigation_height">96dp</dimen>
+</resources>

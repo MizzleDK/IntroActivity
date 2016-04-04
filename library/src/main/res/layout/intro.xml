@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="@dimen/title_padding_left"
+        android:paddingStart="@dimen/title_padding_left"
+        android:paddingRight="@dimen/title_padding_right"
+        android:paddingEnd="@dimen/title_padding_right"
+        android:layout_height="@dimen/navigation_height"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/skip_button"
+            android:layout_gravity="center_vertical|left|start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/skip"
+            android:textColor="@color/skip_text_color"
+            style="?attr/borderlessButtonStyle"
+            />
+
+        <LinearLayout
+            android:id="@+id/progress_layout"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.miz.introactivity.NextDoneButton
+            android:id="@+id/next_button"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_vertical|right|end"
+            android:background="@drawable/next_done_button_selector"
+            />
+
+    </FrameLayout>
+
+</merge>
