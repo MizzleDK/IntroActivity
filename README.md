@@ -3,6 +3,8 @@ The IntroActivity library allows you to easily create beautiful intro screens fo
 
 ![IntroActivity](./images/intro_activity.png "IntroActivity")
 
+Airplane vector image designed by [Freepik](http://www.freepik.com/free-vector/light-airplane-with-banners_796772.htm#term=airplane&page=1&position=25).
+
 ## How do I use IntroActivity?
 Simple. Just create an `Activity` and extend `IntroActivity.`
 
