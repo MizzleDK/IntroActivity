@@ -5,6 +5,12 @@ The IntroActivity library allows you to easily create beautiful intro screens fo
 
 Airplane vector image designed by [Freepik](http://www.freepik.com/free-vector/light-airplane-with-banners_796772.htm#term=airplane&page=1&position=25).
 
+### YouTube demo
+
+![YouTube demo](https://j.gifs.com/73Vg5r.gif "YouTube demo")
+
+Watch it on [YouTube](https://www.youtube.com/watch?v=4vUe8xVAEIM).
+
 ## How do I use IntroActivity?
 Simple. Just create an `Activity` and extend `IntroActivity.`
 
