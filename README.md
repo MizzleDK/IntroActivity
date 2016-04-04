@@ -1,6 +1,8 @@
 # IntroActivity
 The IntroActivity library allows you to easily create beautiful intro screens for your app.
 
+![IntroActivity](./images/intro_activity.png "IntroActivity")
+
 ## How do I use IntroActivity?
 Simple. Just create an `Activity` and extend `IntroActivity.`
 
