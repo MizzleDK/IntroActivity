@@ -28,7 +28,7 @@ public abstract class IntroActivity extends AppCompatActivity {
     private int mProgressCircleColor;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected final void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setTheme(R.style.IntroActivity_Theme);
