@@ -36,7 +36,18 @@ public class DemoActivity extends IntroActivity {
 ```
 
 ### Gradle dependency
-Coming soon!
+Add the following to your top level build.gradle
+
+    allprojects {
+        repositories {
+            ...
+            maven { url "https://jitpack.io" }
+        }
+    }
+
+Add the following dependency
+
+    compile 'com.github.MizzleDK:IntroActivity:-SNAPSHOT'
 
 ## Custom styling
 The library allows you to perform various custom styling using the following methods:
