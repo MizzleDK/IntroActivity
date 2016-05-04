@@ -1,6 +1,7 @@
 package com.miz.introactivity;
 
 import android.os.Bundle;
+import android.support.annotation.ColorInt;
 import android.support.v4.content.ContextCompat;
 
 /**
@@ -61,8 +62,8 @@ public class IntroFragment extends BaseIntroFragment {
      * @param descriptionColor Text color for the description.
      * @return IntroFragment with title, description and custom colors.
      */
-    public static IntroFragment newInstance(String title, int titleColor, String description,
-                                            int descriptionColor) {
+    public static IntroFragment newInstance(String title, @ColorInt int titleColor, String description,
+                                            @ColorInt int descriptionColor) {
         Bundle args = new Bundle();
         args.putString(TITLE, title);
         args.putInt(TITLE_COLOR, titleColor);
@@ -85,8 +86,8 @@ public class IntroFragment extends BaseIntroFragment {
      * @param resourceIdType Type for the reference ID
      * @return
      */
-    public static IntroFragment newInstance(String title, int titleColor, String description,
-                                            int descriptionColor, int resourceId, int resourceIdType) {
+    public static IntroFragment newInstance(String title, @ColorInt int titleColor, String description,
+                                            @ColorInt int descriptionColor, int resourceId, int resourceIdType) {
         Bundle args = new Bundle();
         args.putString(TITLE, title);
         args.putInt(TITLE_COLOR, titleColor);
