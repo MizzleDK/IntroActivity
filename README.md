@@ -14,7 +14,8 @@ Watch it on [YouTube](https://www.youtube.com/watch?v=4vUe8xVAEIM).
 ## How do I use IntroActivity?
 Simple. Just create an `Activity` and extend `IntroActivity.`
 
-By extending `IntroActivity`, you'll automatically implement the `initialize()` method. This is where you set up your intro screens and any custom styling. It is not possible to override `onCreate()` as this is used by the library to set up your intro screen.
+By extending `IntroActivity`, you'll automatically implement the `initialize()` method. This is where you set up your intro screens and any custom styling.
+If you need to override `onCreate()`, be sure to call `super.onCreate()`, as the library relies on it.
 
 Here's an example of how to extend `IntroActivity` and add a basic intro screen:
 

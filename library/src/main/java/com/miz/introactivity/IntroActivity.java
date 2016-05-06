@@ -3,6 +3,7 @@ package com.miz.introactivity;
 import android.animation.ArgbEvaluator;
 import android.graphics.PorterDuff;
 import android.os.Bundle;
+import android.support.annotation.CallSuper;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -28,7 +29,8 @@ public abstract class IntroActivity extends AppCompatActivity {
     private int mProgressCircleColor;
 
     @Override
-    protected final void onCreate(Bundle savedInstanceState) {
+    @CallSuper
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setTheme(R.style.IntroActivity_Theme);
