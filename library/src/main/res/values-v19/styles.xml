@@ -3,6 +3,7 @@
 
     <style name="IntroActivity.Theme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
     </style>
 
 </resources>
