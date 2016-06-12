@@ -1,5 +1,6 @@
 package com.miz.introactivity;
 
+import android.support.annotation.ColorInt;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -24,7 +25,7 @@ public class IntroScreenPagerAdapter extends FragmentPagerAdapter {
      * @param fragment BaseIntroFragment to add.
      * @param backgroundColor Background color for the Fragment to add.
      */
-    public void addFragment(BaseIntroFragment fragment, int backgroundColor) {
+    public void addFragment(BaseIntroFragment fragment, @ColorInt int backgroundColor) {
         mBackgroundColors.put(mFragments.size(), backgroundColor);
         mFragments.add(fragment);
     }

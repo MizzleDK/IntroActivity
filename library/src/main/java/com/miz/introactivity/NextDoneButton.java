@@ -4,6 +4,8 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Animatable;
 import android.graphics.drawable.Drawable;
+import android.support.annotation.ColorInt;
+import android.support.annotation.ColorRes;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
 import android.util.AttributeSet;
@@ -72,8 +74,17 @@ public class NextDoneButton extends ImageButton {
      * Set the color of the button icon.
      * @param color Color for the button icon.
      */
-    public void setColor(int color) {
+    public void setColor(@ColorInt int color) {
         mColor = color;
+        tintDrawables();
+    }
+
+    /**
+     * Set the color of the button icon.
+     * @param colorResId Color resource for the button icon.
+     */
+    public void setColorRes(@ColorRes int colorResId) {
+        mColor = ContextCompat.getColor(getContext(), colorResId);
         tintDrawables();
     }
 
